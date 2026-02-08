@@ -1,0 +1,10 @@
+Package: limix
+Title: LimiX: Unleashing Structured-Data Modeling Capability for Generalist Intelligence
+Version: 0.0.0.9000
+Authors@R: 
+    person("frank", "hull", , "frankiethull@proton.me", role = c("aut", "cre"))
+Description: R bindings for the LimiX LDM python package. reticulated code for the python repo (limix-ldm/LimiX).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
