@@ -9,7 +9,7 @@
 #' @return creation of virtual environment
 #' @export
 create_limix_env <- \(envname = "limix", ...) {
-  reticulate::virtualenv_create(envname, python = "python3.12", ...)
+  reticulate::virtualenv_create(envname, ...)
 }
 
 #' Use Virtual Environment Wrapper
