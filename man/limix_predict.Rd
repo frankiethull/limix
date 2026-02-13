@@ -4,12 +4,14 @@
 \alias{limix_predict}
 \title{LimiX predictions}
 \usage{
-limix_predict(object, X_test, ...)
+limix_predict(object, X_test, task_type = "Classification", ...)
 }
 \arguments{
 \item{object}{an object returned from limix_fit}
 
 \item{X_test}{a set of predictors}
+
+\item{task_type}{either \code{Classification} or \code{Regression}}
 
 \item{...}{pass through for prediction method}
 }
